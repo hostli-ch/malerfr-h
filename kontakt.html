@@ -56,7 +56,7 @@
     <link href="./assets/css/sitemap.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/footer.css" rel="stylesheet" type="text/css">
 
-    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href="./assets/css/leaflet.css" rel="stylesheet" type="text/css">
 
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -161,11 +161,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div id="map" class="border-inverse" style="position: relative; overflow: hidden;">
-
-
-                                                        <div id ="my-map" style="width:800px; height:600px;"></div>
-
-
+                                                        <div style="width:800px; height:600px;"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -219,8 +215,7 @@
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/mdblog.js"></script>
     <script src="./assets/js/minerva.js"></script>
-
-    <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="./assets/js/leaflet.js"></script>
 
     <script>
         // Creating map options
@@ -233,7 +228,7 @@
         var map = new L.map('map', mapOptions);
 
         // Creating a Layer object
-        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+        var layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
         // Adding layer to the map
         map.addLayer(layer);
         let marker = new L.Marker([47.425983, 8.9649067]);
