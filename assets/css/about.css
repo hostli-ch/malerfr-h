@@ -1,0 +1,20 @@
+.about-team p {
+    font-weight: bold;
+}
+
+.about-team-4 {
+    padding: 0px 7%;
+    margin: 0px 7%;
+}
+
+.about-team-3 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .about-team-3 {
+        padding: 0px 7%;
+        margin: 0px 7%;
+    }
+}

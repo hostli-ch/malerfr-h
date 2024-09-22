@@ -1,0 +1,273 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    background: url('/assets/img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* text-transform: uppercase; */
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 12px;
+}
+
+p {
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    /*max-width: 400px;*/;
+    border-color: #999999;
+}
+
+blockquote{
+    border-color: #AAAAAA;
+    font-style: italic;
+    background-color: #eeeeee;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover {
+    background-color: #cccccc;
+}
+
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: #cccccc;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+/*    text-transform: capitalize; */
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {>
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.navbar .navbar-logo img {
+    display: none;
+    margin: 4px;
+    max-height: 80px;
+    float: left;
+}
+
+.content .content-item {
+    padding: 0px;
+}
+
+.box {
+    padding: 10px 5px;
+}
+
+.shadow{
+    margin: 4px 0px;
+    border: 1px solid #000000;
+}
+
+.content-item {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+/* Responsive */
+@media screen and (min-width:768px) {
+
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+        min-height: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 20px;
+        font-size: 11pt;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        table-layout: fixed;
+        font-size: 1.25em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar .navbar-logo img {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav>li>a {
+        padding: 35px;
+        font-size: 14pt;
+    }
+
+    .content .content-item {
+        padding: 20px;
+    }
+
+    .box {
+        padding: 30px 15px;
+    }
+
+    .content h2 {
+        font-size: 36pt;
+    }
+
+    .content h3 {
+        font-size: 24pt;
+    }
+
+    .content p {
+        text-align: justify;
+        font-size: 12pt;
+    }
+
+    .shadow{
+        box-shadow: 10px 10px 5px #888888;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .navbar {
+        /*
+        border: 1px solid #000000;
+        box-shadow: 10px 10px 5px #333333;
+        */
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 1170px; */
+    }
+
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
